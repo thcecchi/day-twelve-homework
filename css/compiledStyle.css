@@ -48,6 +48,12 @@ section {
     margin-left: auto;
     margin-right: auto;
     display: inherit; }
+  section .fa {
+    text-align: center;
+    font-size: 6.5em;
+    color: tomato;
+    margin-top: 0;
+    display: block; }
   section h1 {
     text-align: center;
     font-size: 6.5em;
