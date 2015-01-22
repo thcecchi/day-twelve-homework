@@ -1,0 +1,24 @@
+{
+  "name": "dayTwelveHomework",
+  "version": "0.0.0",
+  "authors": [
+    "Tyler Cecchi <thcecchi@gmail.com>"
+  ],
+  "description": "\"10 examples of jquery events\"",
+  "main": "main.js",
+  "keywords": [
+    "dayTwelveHomework",
+    "12",
+    "jquery",
+    "events"
+  ],
+  "license": "MIT",
+  "homepage": "tylercecchi.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,90 @@
+html {
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: blanchedalmond;
+  height: 100%; }
+
+header nav {
+  float: left;
+  display: inline-block;
+  padding-top: 10%;
+  margin-left: 5%;
+  font-size: 20px;
+  border-left: 3px solid gray;
+  border-right: 3px solid gray;
+  border-bottom: 3px solid gray;
+  width: 15%;
+  position: fixed; }
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+    margin-left: 10%; }
+    header nav ul li {
+      padding-bottom: 10%; }
+      header nav ul li a {
+        text-decoration: none;
+        color: gray; }
+        header nav ul li a:hover {
+          color: lightgray; }
+        header nav ul li a.active {
+          color: tomato; }
+
+.container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: 2%; }
+
+section {
+  width: 100%;
+  border-bottom: 3px solid gray;
+  min-height: 700px; }
+  section img {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inherit; }
+  section h1 {
+    text-align: center;
+    font-size: 6.5em;
+    color: tomato;
+    margin-top: 0; }
+  section p {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 10%; }
+
+section.home {
+  background: blanchedalmond;
+  height: 100%;
+  padding-top: 25%; }
+
+.firstSection h1, .secondSection h1, .thirdSection h1 {
+  margin: 0;
+  padding-top: 3%;
+  padding-bottom: 3%; }
+
+footer {
+  width: 100%;
+  display: block; }
+  footer nav {
+    float: right;
+    display: inline-block;
+    padding-top: 5%;
+    margin-right: 25%;
+    font-size: 20px; }
+    footer nav ul {
+      list-style-type: none; }
+      footer nav ul li {
+        padding-bottom: 10%;
+        display: inline; }
+        footer nav ul li a {
+          text-decoration: none; }
