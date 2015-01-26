@@ -52,33 +52,38 @@ header nav {
   margin-right: 2%; }
 
 section {
-  width: 100%;
+  width: 50%;
+  margin-left: 30%;
   border-bottom: 3px solid gray;
-  min-height: 700px; }
-  section img {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    display: inherit; }
+  min-height: 250px; }
+  section h1 {
+    text-align: center;
+    font-size: 5em;
+    color: tomato;
+    margin-top: 0; }
   section .fa {
     text-align: center;
     font-size: 6.5em;
     color: tomato;
     margin-top: 0;
     display: block; }
-  section h1 {
-    text-align: center;
-    font-size: 7em;
-    color: tomato;
-    margin-top: 0; }
-  section p {
-    font-family: sans-serif;
-    line-height: 1.5em;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 1%;
-    padding-bottom: 10%; }
+  section .contents {
+    width: 100%; }
+    section .contents img {
+      width: 30%;
+      height: 350px;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block; }
+    section .contents p {
+      font-family: sans-serif;
+      line-height: 1.5em;
+      width: 65%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 1%;
+      padding-bottom: 10%;
+      display: inline-block; }
 
 section.home {
   background: blanchedalmond;

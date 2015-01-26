@@ -2,6 +2,7 @@ $(document).ready(function(){
 
 $("nav").hide();
 $(".exMark").hide();
+$("section p").hide();
 
 
 // click nav highlights
@@ -73,6 +74,12 @@ $(".exMark").click(function() {
       $("nav a").eq(4).addClass("active");
       $("nav a").eq(3).removeClass("active");
     }
+  });
+
+// slide toggle section paragraph
+  $('img').click(function() {
+    $(this).siblings(":last").toggle('slide', {direction: 'right'} );
+    $('.section').css({'width': '100%'});
   });
 
 
