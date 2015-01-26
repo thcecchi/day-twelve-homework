@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+$("nav").hide();
+$(".exMark").hide();
+
+
 // click nav highlights
   $("a").click(function (event){
     event.preventDefault();
@@ -12,6 +16,30 @@ $(document).ready(function(){
     $("html, body").animate({ scrollTop: $(scrSection).offset().top}, 1000);
 
   });
+
+// Nav bar slide-down
+  // show nav
+$( ".burgerButton" ).click(function() {
+  $( "nav" ).slideDown( "fast", function() {
+    //
+  });
+
+  $( ".burgerButton" ).hide();
+
+  $( ".exMark" ).show();
+
+});
+  // hide nav
+$(".exMark").click(function() {
+  $( "nav" ).slideUp( "fast", function() {
+    //
+  });
+
+  $(".exMark").hide();
+
+  $(".burgerButton").show();
+
+});
 
 // scroll highlight nav position
   $(window).scroll(function() {
@@ -46,5 +74,6 @@ $(document).ready(function(){
       $("nav a").eq(3).removeClass("active");
     }
   });
+
 
 });

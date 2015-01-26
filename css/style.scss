@@ -12,9 +12,25 @@ body {
 
 header {
 
+  .burgerButton {
+    font-size: 36px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: lightgray;
+    position: fixed;
+  }
+
+  .exMark {
+    font-size: 36px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: lightgray;
+    position: fixed;
+  }
+
   nav {
-    float: left;
     display: inline-block;
+    float: left;
     padding-top: 10%;
     margin-left: 5%;
     font-size: 20px;
@@ -82,7 +98,7 @@ section {
 
     h1 {
       text-align: center;
-      font-size: 6.5em;
+      font-size: 7em;
       color: tomato;
       margin-top: 0;
     }
@@ -100,7 +116,7 @@ section {
 
 section.home {
   background: blanchedalmond;
-  height: 100%;
+  height: 80%;
   padding-top: 25%;
 
 }
