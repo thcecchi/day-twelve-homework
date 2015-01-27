@@ -72,14 +72,13 @@ header {
 .container {
   width: 75%;
   margin-left: auto;
-  margin-right: 2%;
 }
 
 section {
   width: 50%;
-  margin-left: 30%;
-  border-bottom: 3px solid gray;
-  min-height: 250px;
+  margin-left: 43%;
+  min-height: 300px;
+  margin-bottom: 2%;
 
   h1 {
     text-align: center;
@@ -97,15 +96,12 @@ section {
   }
 
   .contents {
-
-    width: 100%;
+    width: 925px;
+    background: gray;
+    margin-left: -425px;
 
     img {
-      width: 30%;
-      height: 350px;
-      margin-left: auto;
-      margin-right: auto;
-      display: inline-block;
+      display: block;
     }
 
 

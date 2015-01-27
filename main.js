@@ -78,8 +78,11 @@ $(".exMark").click(function() {
 
 // slide toggle section paragraph
   $('img').click(function() {
-    $(this).siblings(":last").toggle('slide', {direction: 'right'} );
-    $('.section').css({'width': '100%'});
+
+
+
+
+
   });
 
 
